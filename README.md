@@ -8,8 +8,8 @@ TrialGuard is a local-first clinical trial risk monitor for detecting protocol d
 |---|---|
 | Team Name | Imaging Intelligence |
 | Track | AI |
-| Team Lead | To be provided; see `submission.yaml` |
-| Members | To be provided; see `submission.yaml` |
+| Team Lead | Prachi Patel (`24BMIT032`, `24bmit032@charusat.edu.in`) |
+| Members | Vinit Panchal (`24BMIT008`, `24bmit008@charusat.edu.in`); Darshan Patel (`24BMIT011`, `24bmit011@charusat.edu.in`); Mann Patel (`24BMIT013`, `24bmit013@charusat.edu.in`) |
 
 ## Problem
 
@@ -40,10 +40,10 @@ TrialGuard imports structured, de-identified trial records into SQLite, evaluate
 ## Repository Structure
 
 ```text
-src/backend/       API, protocol engine, analyzer, SQLite services
-src/frontend/      Browser dashboard
-docs/              Problem, solution, architecture, setup, and data format
-	demo/              Demo artifacts, including five dashboard screenshots
+src/backend/      API, protocol engine, analyzer, SQLite services
+src/frontend/     Browser dashboard
+docs/             Problem, solution, architecture, setup, and data format
+demo/             Demo artifacts, including five dashboard screenshots
 presentation/      Slide deck location
 submission.yaml    Structured submission metadata
 ```
@@ -63,7 +63,7 @@ Open `http://127.0.0.1:8000`. For the complete import format and validation step
 ## Demo Artifacts
 
 - Video: add the final 3–5 minute recording URL to [`demo/demo-video-link.txt`](demo/demo-video-link.txt) before submission.
-- Live URL: [`demo/live-demo-url.txt`](demo/live-demo-url.txt) currently records the local-only status.
+- Live URL: [`demo/live-demo-url.txt`](demo/live-demo-url.txt) is `NOT_DEPLOYED`; run locally using [`docs/setup-guide.md`](docs/setup-guide.md).
 - Screenshots: five populated dashboard views are available in [`demo/screenshots/`](demo/screenshots/): home dashboard, loaded datasets, risk radar, deviation inbox, and CAPA response.
 - Presentation: add the final PDF or PPTX deck to [`presentation/`](presentation/).
 

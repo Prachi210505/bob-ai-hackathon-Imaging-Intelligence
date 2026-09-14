@@ -12,15 +12,19 @@ team:
   name: "Imaging Intelligence"         # REQUIRED
   track: "AI"                          # REQUIRED — one of: AI | DevOps | Sustainability | Open
   lead:
-    name: ""                           # REQUIRED — provide before submission
-    email: ""                          # REQUIRED — provide before submission
+    name: "Prachi Patel"               # REQUIRED
+    student_id: "24BMIT032"
+    email: "24bmit032@charusat.edu.in" # REQUIRED
   members:
-    - name: ""                         # Add team member name if applicable
-      email: ""
-    - name: ""                         # Add more members by copying the two lines above
-      email: ""
-    - name: ""
-      email: ""
+    - name: "Vinit Panchal"
+      student_id: "24BMIT008"
+      email: "24bmit008@charusat.edu.in"
+    - name: "Darshan Patel"
+      student_id: "24BMIT011"
+      email: "24bmit011@charusat.edu.in"
+    - name: "Mann Patel"
+      student_id: "24BMIT013"
+      email: "24bmit013@charusat.edu.in"
 
 submission:
   title: "TrialGuard"                  # REQUIRED
