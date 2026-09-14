@@ -1,14 +1,17 @@
 # TrialGuard Demo Screenshots
 
-Add at least three screenshots of the running TrialGuard dashboard before submission.
+The repository includes five screenshots of the running TrialGuard dashboard. Together
+they show the loaded workspace, risk prioritization, source evidence, and response flow.
 
 ## Naming Convention
 
 Name your screenshots sequentially so they appear in logical order:
 
-  01-home-dashboard.png     ← Loaded datasets and trial health summary
-  02-risk-radar.png         ← Site pressure map and investigation brief
-  03-capa-response.png      ← CAPA queue or generated report
+  01-home-dashboard.png     ← Situation report and trial health summary
+  02-loaded-datasets.png    ← Active dataset sources and finding counts
+  03-risk-radar.png         ← Site pressure map and investigation brief
+  04-deviation-inbox.png    ← Evidence-backed deviation inbox
+  05-capa-response.png      ← CAPA queue and controlled response
 
 ## Requirements
 

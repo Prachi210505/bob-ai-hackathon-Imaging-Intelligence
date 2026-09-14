@@ -43,7 +43,7 @@ TrialGuard imports structured, de-identified trial records into SQLite, evaluate
 src/backend/       API, protocol engine, analyzer, SQLite services
 src/frontend/      Browser dashboard
 docs/              Problem, solution, architecture, setup, and data format
-demo/              Demo artifact locations
+	demo/              Demo artifacts, including five dashboard screenshots
 presentation/      Slide deck location
 submission.yaml    Structured submission metadata
 ```
@@ -64,7 +64,7 @@ Open `http://127.0.0.1:8000`. For the complete import format and validation step
 
 - Video: add the final 3–5 minute recording URL to [`demo/demo-video-link.txt`](demo/demo-video-link.txt) before submission.
 - Live URL: [`demo/live-demo-url.txt`](demo/live-demo-url.txt) currently records the local-only status.
-- Screenshots: add at least three populated dashboard screenshots to [`demo/screenshots/`](demo/screenshots/).
+- Screenshots: five populated dashboard views are available in [`demo/screenshots/`](demo/screenshots/): home dashboard, loaded datasets, risk radar, deviation inbox, and CAPA response.
 - Presentation: add the final PDF or PPTX deck to [`presentation/`](presentation/).
 
 ## Known Limitations
