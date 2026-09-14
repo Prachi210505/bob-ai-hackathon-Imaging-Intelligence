@@ -1,0 +1,13 @@
+{
+  "dataset_name": "Atlas clean comparison cohort",
+  "source_filename": "dataset-04-atlas.json",
+  "sites": [{"site_code": "ATLAS-08", "name": "Atlas Trial Unit", "country": "United Kingdom"}, {"site_code": "ATLAS-09", "name": "Atlas East Clinic", "country": "United Kingdom"}],
+  "patients": [{"patient_code": "ATLAS-P001", "site_code": "ATLAS-08", "status": "active"}, {"patient_code": "ATLAS-P002", "site_code": "ATLAS-09", "status": "active"}],
+  "visits": [
+    {"patient_code": "ATLAS-P001", "visit_number": 1, "scheduled_day": 0, "actual_day": 3, "occurred_at": "2026-01-04", "entered_at": "2026-01-06"},
+    {"patient_code": "ATLAS-P002", "visit_number": 1, "scheduled_day": 0, "actual_day": 4, "occurred_at": "2026-01-05", "entered_at": "2026-01-07"}
+  ],
+  "doses": [{"patient_code": "ATLAS-P001", "visit_number": 1, "dose_mg": 100, "frequency": "once_daily", "recorded_at": "2026-01-04"}, {"patient_code": "ATLAS-P002", "visit_number": 1, "dose_mg": 100, "frequency": "once_daily", "recorded_at": "2026-01-05"}],
+  "medications": [],
+  "assessments": [{"patient_code": "ATLAS-P001", "visit_number": 1, "assessment_type": "safety_labs", "completed": true}, {"patient_code": "ATLAS-P002", "visit_number": 1, "assessment_type": "safety_labs", "completed": true}]
+}

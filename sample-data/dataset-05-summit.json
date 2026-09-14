@@ -1,0 +1,14 @@
+{
+  "dataset_name": "Summit data-integrity cohort",
+  "source_filename": "dataset-05-summit.json",
+  "sites": [{"site_code": "SUMMIT-33", "name": "Summit Research Network", "country": "Australia"}],
+  "patients": [{"patient_code": "SUMMIT-P001", "site_code": "SUMMIT-33", "status": "active"}],
+  "visits": [
+    {"patient_code": "SUMMIT-P001", "visit_number": 1, "scheduled_day": 0, "actual_day": 6, "occurred_at": "2026-01-07", "entered_at": "2026-01-20"},
+    {"patient_code": "SUMMIT-P001", "visit_number": 2, "scheduled_day": 28, "actual_day": 34, "occurred_at": "2026-02-04", "entered_at": "2026-02-06"},
+    {"patient_code": "SUMMIT-P001", "visit_number": 3, "scheduled_day": 56, "actual_day": 62, "occurred_at": "2026-03-04", "entered_at": "2026-03-06"}
+  ],
+  "doses": [{"patient_code": "SUMMIT-P001", "visit_number": 1, "dose_mg": 100, "frequency": "twice_daily", "recorded_at": "2026-01-07"}],
+  "medications": [{"patient_code": "SUMMIT-P001", "medication_name": "phenytoin", "started_day": 20, "ended_day": 30, "recorded_at": "2026-01-27"}],
+  "assessments": [{"patient_code": "SUMMIT-P001", "visit_number": 2, "assessment_type": "imaging_scan", "completed": false}]
+}

@@ -1,0 +1,5 @@
+VIDEO LINK PENDING — add a public or unlisted 3–5 minute recording before submission.
+
+Recommended TrialGuard demo flow: start the local API, import one bundled JSON fixture,
+review the site risk radar and evidence inbox, generate investigation questions, create
+a CAPA, then delete and re-import the dataset to show the repeatable workflow.

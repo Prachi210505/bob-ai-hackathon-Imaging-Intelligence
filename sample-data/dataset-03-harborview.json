@@ -1,0 +1,14 @@
+{
+  "dataset_name": "Harborview incomplete cohort",
+  "source_filename": "dataset-03-harborview.json",
+  "sites": [{"site_code": "HARBOR-27", "name": "Harborview Medical", "country": "Canada"}],
+  "patients": [{"patient_code": "HARBOR-P001", "site_code": "HARBOR-27", "status": "active"}, {"patient_code": "HARBOR-P002", "site_code": "HARBOR-27", "status": "active"}],
+  "visits": [
+    {"patient_code": "HARBOR-P001", "visit_number": 1, "scheduled_day": 0, "actual_day": 1, "occurred_at": "2026-01-02", "entered_at": "2026-01-04"},
+    {"patient_code": "HARBOR-P001", "visit_number": 2, "scheduled_day": 28, "actual_day": null, "occurred_at": null, "entered_at": null},
+    {"patient_code": "HARBOR-P002", "visit_number": 1, "scheduled_day": 0, "actual_day": 2, "occurred_at": "2026-01-03", "entered_at": "2026-01-05"}
+  ],
+  "doses": [{"patient_code": "HARBOR-P001", "visit_number": 1, "dose_mg": 100, "frequency": "once_daily", "recorded_at": "2026-01-02"}],
+  "medications": [],
+  "assessments": [{"patient_code": "HARBOR-P001", "visit_number": 1, "assessment_type": "safety_labs", "completed": false}]
+}

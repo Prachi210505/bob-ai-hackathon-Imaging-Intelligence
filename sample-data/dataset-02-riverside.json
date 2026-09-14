@@ -1,0 +1,15 @@
+{
+  "dataset_name": "Riverside high-risk cohort",
+  "source_filename": "dataset-02-riverside.json",
+  "sites": [{"site_code": "RIVER-14", "name": "Riverside Clinical Center", "country": "United States"}],
+  "patients": [{"patient_code": "RIVER-P001", "site_code": "RIVER-14", "status": "active"}],
+  "visits": [
+    {"patient_code": "RIVER-P001", "visit_number": 1, "scheduled_day": 0, "actual_day": 1, "occurred_at": "2026-01-02", "entered_at": "2026-01-04"},
+    {"patient_code": "RIVER-P001", "visit_number": 2, "scheduled_day": 28, "actual_day": 45, "occurred_at": "2026-02-15", "entered_at": "2026-02-25"},
+    {"patient_code": "RIVER-P001", "visit_number": 3, "scheduled_day": 56, "actual_day": 57, "occurred_at": "2026-02-27", "entered_at": "2026-03-01"},
+    {"patient_code": "RIVER-P001", "visit_number": 4, "scheduled_day": 84, "actual_day": 85, "occurred_at": "2026-03-27", "entered_at": "2026-03-29"}
+  ],
+  "doses": [{"patient_code": "RIVER-P001", "visit_number": 2, "dose_mg": 200, "frequency": "once_daily", "recorded_at": "2026-02-15"}],
+  "medications": [{"patient_code": "RIVER-P001", "medication_name": "warfarin", "started_day": 45, "ended_day": 60, "recorded_at": "2026-02-15"}],
+  "assessments": [{"patient_code": "RIVER-P001", "visit_number": 3, "assessment_type": "imaging_scan", "completed": false}]
+}

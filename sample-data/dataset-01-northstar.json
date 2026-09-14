@@ -1,0 +1,18 @@
+{
+  "dataset_name": "Northstar cohort",
+  "source_filename": "dataset-01-northstar.json",
+  "sites": [{"site_code": "NORTH-01", "name": "Northstar Research", "country": "United States"}],
+  "patients": [{"patient_code": "NORTH-P001", "site_code": "NORTH-01", "status": "active"}],
+  "visits": [
+    {"patient_code": "NORTH-P001", "visit_number": 1, "scheduled_day": 0, "actual_day": 2, "occurred_at": "2026-01-03", "entered_at": "2026-01-05"},
+    {"patient_code": "NORTH-P001", "visit_number": 2, "scheduled_day": 28, "actual_day": 29, "occurred_at": "2026-01-30", "entered_at": "2026-02-01"},
+    {"patient_code": "NORTH-P001", "visit_number": 3, "scheduled_day": 56, "actual_day": 57, "occurred_at": "2026-02-27", "entered_at": "2026-03-01"},
+    {"patient_code": "NORTH-P001", "visit_number": 4, "scheduled_day": 84, "actual_day": 85, "occurred_at": "2026-03-27", "entered_at": "2026-03-29"}
+  ],
+  "doses": [{"patient_code": "NORTH-P001", "visit_number": 1, "dose_mg": 100, "frequency": "once_daily", "recorded_at": "2026-01-03"}],
+  "medications": [],
+  "assessments": [
+    {"patient_code": "NORTH-P001", "visit_number": 1, "assessment_type": "safety_labs", "completed": true},
+    {"patient_code": "NORTH-P001", "visit_number": 1, "assessment_type": "imaging_scan", "completed": true}
+  ]
+}

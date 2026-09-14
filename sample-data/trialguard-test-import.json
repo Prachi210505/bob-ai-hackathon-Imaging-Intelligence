@@ -1,0 +1,53 @@
+{
+  "protocol": {
+    "name": "TG-101 Imaging Response Study",
+    "version": "1.0",
+    "visit_windows": {
+      "1": [0, 7],
+      "2": [21, 35],
+      "3": [49, 63],
+      "4": [77, 91]
+    },
+    "dose_mg": 100,
+    "dose_frequency": "once_daily",
+    "prohibited_medications": ["warfarin", "phenytoin"],
+    "required_assessments": ["safety_labs", "imaging_scan"],
+    "data_entry_deadline_days": 5
+  },
+  "sites": [
+    {"site_code": "SITE-001", "name": "Northstar Research", "country": "United States"},
+    {"site_code": "SITE-014", "name": "Riverside Clinical Center", "country": "United States"}
+  ],
+  "patients": [
+    {"patient_code": "P-001", "site_code": "SITE-001", "status": "active"},
+    {"patient_code": "P-014-001", "site_code": "SITE-014", "status": "active"},
+    {"patient_code": "P-014-002", "site_code": "SITE-014", "status": "active"}
+  ],
+  "visits": [
+    {"patient_code": "P-001", "visit_number": 1, "scheduled_day": 0, "actual_day": 1, "occurred_at": "2026-01-02", "entered_at": "2026-01-04"},
+    {"patient_code": "P-001", "visit_number": 2, "scheduled_day": 28, "actual_day": 29, "occurred_at": "2026-01-30", "entered_at": "2026-02-01"},
+    {"patient_code": "P-001", "visit_number": 3, "scheduled_day": 56, "actual_day": 57, "occurred_at": "2026-02-27", "entered_at": "2026-03-01"},
+    {"patient_code": "P-001", "visit_number": 4, "scheduled_day": 84, "actual_day": 85, "occurred_at": "2026-03-27", "entered_at": "2026-03-29"},
+    {"patient_code": "P-014-001", "visit_number": 1, "scheduled_day": 0, "actual_day": 1, "occurred_at": "2026-01-02", "entered_at": "2026-01-04"},
+    {"patient_code": "P-014-001", "visit_number": 2, "scheduled_day": 28, "actual_day": 29, "occurred_at": "2026-01-30", "entered_at": "2026-02-01"},
+    {"patient_code": "P-014-001", "visit_number": 3, "scheduled_day": 56, "actual_day": 72, "occurred_at": "2026-03-14", "entered_at": "2026-03-24"},
+    {"patient_code": "P-014-001", "visit_number": 4, "scheduled_day": 84, "actual_day": 85, "occurred_at": "2026-03-27", "entered_at": "2026-03-29"},
+    {"patient_code": "P-014-002", "visit_number": 1, "scheduled_day": 0, "actual_day": 2, "occurred_at": "2026-01-03", "entered_at": "2026-01-05"},
+    {"patient_code": "P-014-002", "visit_number": 2, "scheduled_day": 28, "actual_day": null, "occurred_at": null, "entered_at": null},
+    {"patient_code": "P-014-002", "visit_number": 3, "scheduled_day": 56, "actual_day": 57, "occurred_at": "2026-02-27", "entered_at": "2026-03-01"},
+    {"patient_code": "P-014-002", "visit_number": 4, "scheduled_day": 84, "actual_day": 85, "occurred_at": "2026-03-27", "entered_at": "2026-03-29"}
+  ],
+  "doses": [
+    {"patient_code": "P-001", "visit_number": 1, "dose_mg": 100, "frequency": "once_daily", "recorded_at": "2026-01-02"},
+    {"patient_code": "P-014-001", "visit_number": 3, "dose_mg": 200, "frequency": "once_daily", "recorded_at": "2026-03-14"},
+    {"patient_code": "P-014-002", "visit_number": 1, "dose_mg": 100, "frequency": "once_daily", "recorded_at": "2026-01-03"}
+  ],
+  "medications": [
+    {"patient_code": "P-014-001", "medication_name": "warfarin", "started_day": 56, "ended_day": 70, "recorded_at": "2026-03-14"}
+  ],
+  "assessments": [
+    {"patient_code": "P-001", "visit_number": 1, "assessment_type": "safety_labs", "completed": true},
+    {"patient_code": "P-001", "visit_number": 1, "assessment_type": "imaging_scan", "completed": true},
+    {"patient_code": "P-014-002", "visit_number": 3, "assessment_type": "imaging_scan", "completed": false}
+  ]
+}
